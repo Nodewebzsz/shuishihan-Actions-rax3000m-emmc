@@ -19,7 +19,7 @@ on:
       USE_MTWIFI_CFG:
         description: 'use OpenWrt原生luci无线控制界面'
         required: true
-        default: true
+        default: false
         type: boolean
       USE_NX30PRO_EEPROM:
         description: 'Use nx30pro eeprom'
